@@ -106,6 +106,8 @@ namespace TimeBack
             return $"{baseTime} (dayOffset:{(_dayOffset >= 0 ? "+" : "")}{_dayOffset})";
         }
 
+
+
         // Optional: expose read-only properties if needed
         public int Hours => _hours;
         public int Minutes => _minutes;
